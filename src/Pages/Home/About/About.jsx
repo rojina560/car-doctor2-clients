@@ -10,19 +10,27 @@ const About = () => {
             <div className="lg:1/2 relative">
               <img src={person} className=" w-3/4 rounded-lg shadow-2xl" />
               <img
-                className="w-1/2 absolute right-5 -bottom-14"
+                className="w-1/2 absolute right-5 -bottom-16"
                 src={parts}
                 alt=""
               />
             </div>
-            <div className="lg:1/2 sm: mt-20 ">
-              <h1 className="text-5xl font-bold">Box Office News!</h1>
-              <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+            <div className="lg:1/2 sm: mt-20 space-y-3 ">
+              <h1 className="text-5xl font-bold">
+                About Us We are qualified & of experience in this field
+              </h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable.
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              <p className="py-6">
+                the majority have suffered alteration in some form, by injected
+                humour, or randomised words which don't look even slightly
+                believable.
+              </p>
+              <button className="btn  text-white bg-red-500">Get More Info</button>
             </div>
             \
           </div>
